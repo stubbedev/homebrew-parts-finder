@@ -1,28 +1,28 @@
 class PartsFinder < Formula
   desc "MCP server for speccing servers from compatible hardware and finding deals"
   homepage "https://github.com/stubbedev/parts-finder-mcp"
-  version "0.1.17"
+  version "0.1.18"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/stubbedev/parts-finder-mcp/releases/download/v#{version}/parts-finder-#{version}-darwin-arm64.tar.gz"
-      sha256 "68e65773aa1fb22d98fd6eb4e7796e308c9db33ea6948f16c526d45c3e801751"
+      sha256 "8dc9e07d27b2965690646b89a05b7bd507f003622d0777ea5a72532f98e54165"
     end
     on_intel do
       url "https://github.com/stubbedev/parts-finder-mcp/releases/download/v#{version}/parts-finder-#{version}-darwin-amd64.tar.gz"
-      sha256 "afe19045558c20bbafad4cac6b258f283441fc512a54b573cdda946929f620a7"
+      sha256 "81f14b3b38ea8dff23bad6587c5a1af95a83f68fd196f1091e285f3d20c1df3e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/stubbedev/parts-finder-mcp/releases/download/v#{version}/parts-finder-#{version}-linux-arm64.tar.gz"
-      sha256 "d3811aadbad2902880053b4517124290ee17f3a8dde93b5ea6adc4c4e09830cc"
+      sha256 "ee909421e0056aebb79c0e59bb1bfdcdbebb81a08102ce6f2884a22123b061a0"
     end
     on_intel do
       url "https://github.com/stubbedev/parts-finder-mcp/releases/download/v#{version}/parts-finder-#{version}-linux-amd64.tar.gz"
-      sha256 "83a72f3273af2a64e86dd8f273f8dd62df42b2c53c4d4efffb55c61f56b6e30f"
+      sha256 "097b012788835c5c6dcb9a6bad27078c58f9c7b3842f55dc408f2c87ce67b604"
     end
   end
 
